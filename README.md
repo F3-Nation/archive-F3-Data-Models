@@ -1,3 +1,13 @@
+# Data Model
+
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
+# DEPRECATED
+This was genuinely the repo that set us on our current path. The importance of what is here cannot be understated. And yet the march of progress never slows. Management of the data model now resides in the monorepo.
+
+<details>
+<Summary>Original ReadMe</Summary>
+    
 # Overview
 
 This repository defines the F3 data structure, used by the F3 Slack Bot, Maps, etc. The projected uses SQLAlchemy to define the tables / models.
@@ -113,3 +123,4 @@ erDiagram
     USERS }|..|{ POSITIONS : "hold"
     POSITIONS }|..|{ ORGS : "in"
 ```
+</details>
